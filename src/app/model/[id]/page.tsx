@@ -1,8 +1,8 @@
 // app/model/[id]/page.tsx
 import { notFound, redirect } from 'next/navigation';
 import Link from 'next/link';
-import ModelViewer from '../../components/ModelViewer';
-import '../../styles/ModelViewer.scss';
+import ModelViewer from '@/components/ModelViewer';
+import '@/styles/ModelViewer.scss';
 
 const models = [
   { id: 'model1', name: 'Model 1', url: '/3d-objects/model1.glb' },

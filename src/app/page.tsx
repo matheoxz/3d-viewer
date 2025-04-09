@@ -1,7 +1,7 @@
 // app/page.tsx
 import Link from 'next/link';
-import ModelThumbnail from './components/ModelThumbnail';
-import './styles/Home.scss';
+import ModelThumbnail from '../components/ModelThumbnail';
+import '@/styles/Home.scss';
 
 const models = [
   { id: 'model1', name: 'Model 1', url: '/3d-objects/model1.glb' },
